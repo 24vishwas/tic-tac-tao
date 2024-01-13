@@ -9,7 +9,7 @@ export const Popup = ({ isOpen, onClose, children, quit, resetBoard }) => {
             <button style={{backgroundColor:'#31C4BE'}} className="close-button" onClick={onClose}>
               PLAY AGAIN
             </button>
-            <button className='close-button' onClick={() => { quit(); resetBoard }}>reset</button>
+            <button className='close-button' onClick={() => { resetBoard() }}>reset</button>
             <button className='close-button' style={{backgroundColor:'#F2B237'}} onClick={quit}>QUIT</button>
           </div>
         </div>
