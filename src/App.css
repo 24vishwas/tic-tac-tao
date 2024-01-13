@@ -258,5 +258,5 @@ position: relative;
 }
 .hidden-btn{
   /* position: absolute; */
-  z-index: -1;
+  /* z-index: -1; */
 }
